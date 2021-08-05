@@ -1,0 +1,5 @@
+dask==2.19.0
+modin==0.8.3
+pylcs==0.0.6
+scipy==1.5.4
+pyspark==3.0.3

@@ -1,0 +1,11 @@
+"a single use liquid formulation","Drug","Form"
+"placebo","Drug",
+"a loading dose","Treatment"
+"the same dosing regimen","Treatment"
+"D5W","Drug",
+"D1-4","Drug",
+"D-5","Drug",
+"IVPB","Treatment","Administration"
+"24hr","Form","CycleLength"
+"PBSC","Drug",
+"interferon","Drug"

@@ -1,0 +1,463 @@
+design_group_id,nct_id,group_type,title,arm_desc,intervention_id,intervention_type,name,intervention_desc,arm_title_desc,intervention_name_desc,intervention_type_name_desc
+13299803,NCT00000435,Placebo Comparator,A,Subjects randomized to arm A received 25mg/day po of placebo,12910066,Drug,None-placebo,placebo was taken in pill form at 25mg/day for 6 months,"A
+
+Subjects randomized to arm A received 25mg/day po of placebo",None-placebo: placebo was taken in pill form at 25mg/day for 6 months.,"Drug
+None-placebo: placebo was taken in pill form at 25mg/day for 6 months."
+13299804,NCT00000435,Active Comparator,B,Subjects randomized to Arm B received 25mg/day po of peptide dnaJP1,12910065,Drug,dnaJ peptide,dnaJP1 was taken in pill form at 25mg/day for 6 months,"B
+
+Subjects randomized to Arm B received 25mg/day po of peptide dnaJP1",dnaJ peptide: dnaJP1 was taken in pill form at 25mg/day for 6 months.,"Drug
+dnaJ peptide: dnaJP1 was taken in pill form at 25mg/day for 6 months."
+13690845,NCT00001337,Experimental,Arm A,EPOCH + Rituximab every 3 weeks for 6 cycles.,13274570,Drug,EPOCH,Combination chemotherapy given with Rituximab (EPOCH-R) IV every 3 weeks for 6 cycles.,"Arm A
+
+EPOCH + Rituximab every 3 weeks for 6 cycles.",EPOCH: Combination chemotherapy given with Rituximab (EPOCH-R) IV every 3 weeks for 6 cycles..,"Drug
+EPOCH: Combination chemotherapy given with Rituximab (EPOCH-R) IV every 3 weeks for 6 cycles.."
+13690845,NCT00001337,Experimental,Arm A,EPOCH + Rituximab every 3 weeks for 6 cycles.,13274571,Biological,Rituximab,Rituximab given on Day 1 of combination chemotherapy (EPOCH-R) every 3 weeks for 6 cycles.,"Arm A
+
+EPOCH + Rituximab every 3 weeks for 6 cycles.",Rituximab: Rituximab given on Day 1 of combination chemotherapy (EPOCH-R) every 3 weeks for 6 cycles..,"Biological
+Rituximab: Rituximab given on Day 1 of combination chemotherapy (EPOCH-R) every 3 weeks for 6 cycles.."
+13732309,NCT00001563,Experimental,1,EPOCH-R every 3 weeks for up to 6 cycle,13311178,Biological,Filgrastim,Filgrastim after EPOCH-R from Day 6 for 10 days every cycle.,"1
+
+EPOCH-R every 3 weeks for up to 6 cycle",Filgrastim: Filgrastim after EPOCH-R from Day 6 for 10 days every cycle..,"Biological
+Filgrastim: Filgrastim after EPOCH-R from Day 6 for 10 days every cycle.."
+13732309,NCT00001563,Experimental,1,EPOCH-R every 3 weeks for up to 6 cycle,13311179,Biological,Rituximab,EPOCH-R every 3 weeks for up to 6 cycle,"1
+
+EPOCH-R every 3 weeks for up to 6 cycle",Rituximab: EPOCH-R every 3 weeks for up to 6 cycle.,"Biological
+Rituximab: EPOCH-R every 3 weeks for up to 6 cycle."
+13732309,NCT00001563,Experimental,1,EPOCH-R every 3 weeks for up to 6 cycle,13311180,Drug,EPOCH,EPOCH-R every 3 weeks for up to 6 cycle,"1
+
+EPOCH-R every 3 weeks for up to 6 cycle",EPOCH: EPOCH-R every 3 weeks for up to 6 cycle.,"Drug
+EPOCH: EPOCH-R every 3 weeks for up to 6 cycle."
+13299883,NCT00001575,Experimental,Anti-Tac yttrium 90-labeled humanized anti-Tac (90 Y-HAT),"10 mCi (if a bone marrow transplant was part of the patient's previous therapy) or 15 mCi of yttrium labeled anti-TAC; followed by calcium trisodium Inj (Ca DTPA).
+Ca-DTPA will be administered intravenously on Days 1-3 to clear the radioactive agent from the body",12910234,Biological,Y-90 Humanized Anti-Tac,10 mCi (if a bone marrow transplant was part of the patient's previous therapy) or 15 mCi of yttrium labeled anti-TAC; followed by calcium trisodium Inj (Ca DTPA).,"Anti-Tac yttrium 90-labeled humanized anti-Tac (90 Y-HAT)
+
+10 mCi (if a bone marrow transplant was part of the patient's previous therapy) or 15 mCi of yttrium labeled anti-TAC; followed by calcium trisodium Inj (Ca DTPA).
+Ca-DTPA will be administered intravenously on Days 1-3 to clear the radioactive agent from the body",Y-90 Humanized Anti-Tac: 10 mCi (if a bone marrow transplant was part of the patient's previous therapy) or 15 mCi of yttrium labeled anti-TAC; followed by calcium trisodium Inj (Ca DTPA)..,"Biological
+Y-90 Humanized Anti-Tac: 10 mCi (if a bone marrow transplant was part of the patient's previous therapy) or 15 mCi of yttrium labeled anti-TAC; followed by calcium trisodium Inj (Ca DTPA).."
+13299883,NCT00001575,Experimental,Anti-Tac yttrium 90-labeled humanized anti-Tac (90 Y-HAT),"10 mCi (if a bone marrow transplant was part of the patient's previous therapy) or 15 mCi of yttrium labeled anti-TAC; followed by calcium trisodium Inj (Ca DTPA).
+Ca-DTPA will be administered intravenously on Days 1-3 to clear the radioactive agent from the body",12910235,Drug,Calcium-DTPA,Ca-DTPA will be administered intravenously on Days 1-3 to clear the radioactive agent from the body,"Anti-Tac yttrium 90-labeled humanized anti-Tac (90 Y-HAT)
+
+10 mCi (if a bone marrow transplant was part of the patient's previous therapy) or 15 mCi of yttrium labeled anti-TAC; followed by calcium trisodium Inj (Ca DTPA).
+Ca-DTPA will be administered intravenously on Days 1-3 to clear the radioactive agent from the body",Calcium-DTPA: Ca-DTPA will be administered intravenously on Days 1-3 to clear the radioactive agent from the body.,"Drug
+Calcium-DTPA: Ca-DTPA will be administered intravenously on Days 1-3 to clear the radioactive agent from the body."
+13299880,NCT00001586,Experimental,Low-Intermediate Risk B-Cell Pts,Previously untreated low or intermediate risk B-cell chronic lymphocytic lymphoma (CLL)/small lymphocytic lymphoma (SLL) patients (pts) not requiring chemotherapy. No rituximab fludarabine administered. Eligible to donate cells.,12910230,Other,Leukemic or stroma cells,"Patients are eligible to donate cells for the purpose of analyzing leukemic cells. Cells can be donated by apheresis (e.g. 60-90 minute intravenous technique), lymph node biopsy (e.g. 3 biopsy/excision of lymph nodes)bone marrow biopsy (e.g. 2-4 separate bone marrow biopsies), and bone marrow aspiration (e.g. 3 to 5cc of marrow per aspirate).","Low-Intermediate Risk B-Cell Pts
+
+Previously untreated low or intermediate risk B-cell chronic lymphocytic lymphoma (CLL)/small lymphocytic lymphoma (SLL) patients (pts) not requiring chemotherapy. No rituximab fludarabine administered. Eligible to donate cells.","Leukemic or stroma cells: Patients are eligible to donate cells for the purpose of analyzing leukemic cells. Cells can be donated by apheresis (e.g. 60-90 minute intravenous technique), lymph node biopsy (e.g. 3 biopsy/excision of lymph nodes)bone marrow biopsy (e.g. 2-4 separate bone marrow biopsies), and bone marrow aspiration (e.g. 3 to 5cc of marrow per aspirate)..","Other
+Leukemic or stroma cells: Patients are eligible to donate cells for the purpose of analyzing leukemic cells. Cells can be donated by apheresis (e.g. 60-90 minute intravenous technique), lymph node biopsy (e.g. 3 biopsy/excision of lymph nodes)bone marrow biopsy (e.g. 2-4 separate bone marrow biopsies), and bone marrow aspiration (e.g. 3 to 5cc of marrow per aspirate).."
+13299881,NCT00001586,Experimental,Intermediate-high Risk B-Cell Pts,"Previously untreated intermediate or high risk B-cell chronic lymphocytic lymphoma (CLL)/small lymphocytic lymphoma (SLL) patients requiring chemotherapy. Rituximab 375 mg/m^2 by infusion on day 1, cycle 1 followed by fludarabine on day 2-6, 25 mg/m^2 day x 5 days administered as an intravenous push or intravenous piggyback over 10-30 minutes, repeated every 28 days.",12910228,Biological,Rituximab,Rituxan,"Intermediate-high Risk B-Cell Pts
+
+Previously untreated intermediate or high risk B-cell chronic lymphocytic lymphoma (CLL)/small lymphocytic lymphoma (SLL) patients requiring chemotherapy. Rituximab 375 mg/m^2 by infusion on day 1, cycle 1 followed by fludarabine on day 2-6, 25 mg/m^2 day x 5 days administered as an intravenous push or intravenous piggyback over 10-30 minutes, repeated every 28 days.",Rituximab: Rituxan.,"Biological
+Rituximab: Rituxan."
+13299881,NCT00001586,Experimental,Intermediate-high Risk B-Cell Pts,"Previously untreated intermediate or high risk B-cell chronic lymphocytic lymphoma (CLL)/small lymphocytic lymphoma (SLL) patients requiring chemotherapy. Rituximab 375 mg/m^2 by infusion on day 1, cycle 1 followed by fludarabine on day 2-6, 25 mg/m^2 day x 5 days administered as an intravenous push or intravenous piggyback over 10-30 minutes, repeated every 28 days.",12910229,Drug,Fludarabine phosphate,Fludara,"Intermediate-high Risk B-Cell Pts
+
+Previously untreated intermediate or high risk B-cell chronic lymphocytic lymphoma (CLL)/small lymphocytic lymphoma (SLL) patients requiring chemotherapy. Rituximab 375 mg/m^2 by infusion on day 1, cycle 1 followed by fludarabine on day 2-6, 25 mg/m^2 day x 5 days administered as an intravenous push or intravenous piggyback over 10-30 minutes, repeated every 28 days.",Fludarabine phosphate: Fludara.,"Drug
+Fludarabine phosphate: Fludara."
+13299801,NCT00001984,Experimental,Alemtuzumab and DSG,The recipients of live donor kidneys were treated perioperatively with alemtuzumab and DSG and followed postoperatively without maintenance immunosuppression.,12910064,Drug,Alemtuzumab and DSG,"Alemtuzumab was administered intravenously at 0.3 mg/kg/dose over 3 hr. Patients received one dose on each of days -1,+1,+3 and +5 relative to transplantation (total dose 1.2 mg/kg). Methylprednisolone was given prior to each dose to limit the cytokine release: 500 mg prior to dose 1, 125 mg prior to dose 2, and 60 mg prior to doses 3 and 4. Deoxyspergualin was dosed as follows. The first two patients received 4 mg/kg as a loading dose on the day of transplant and 2.5 mg/kg daily for 13 additional days (14 days of treatment; 36.5 mg/kg total dose). The next three patients received the same dosing regimen but it was initiated on postoperative day 12 to coincide with the resurgence of monocytes on days 12- 25.","Alemtuzumab and DSG
+
+The recipients of live donor kidneys were treated perioperatively with alemtuzumab and DSG and followed postoperatively without maintenance immunosuppression.","Alemtuzumab and DSG: Alemtuzumab was administered intravenously at 0.3 mg/kg/dose over 3 hr. Patients received one dose on each of days -1,+1,+3 and +5 relative to transplantation (total dose 1.2 mg/kg). Methylprednisolone was given prior to each dose to limit the cytokine release: 500 mg prior to dose 1, 125 mg prior to dose 2, and 60 mg prior to doses 3 and 4. Deoxyspergualin was dosed as follows. The first two patients received 4 mg/kg as a loading dose on the day of transplant and 2.5 mg/kg daily for 13 additional days (14 days of treatment; 36.5 mg/kg total dose). The next three patients received the same dosing regimen but it was initiated on postoperative day 12 to coincide with the resurgence of monocytes on days 12- 25..","Drug
+Alemtuzumab and DSG: Alemtuzumab was administered intravenously at 0.3 mg/kg/dose over 3 hr. Patients received one dose on each of days -1,+1,+3 and +5 relative to transplantation (total dose 1.2 mg/kg). Methylprednisolone was given prior to each dose to limit the cytokine release: 500 mg prior to dose 1, 125 mg prior to dose 2, and 60 mg prior to doses 3 and 4. Deoxyspergualin was dosed as follows. The first two patients received 4 mg/kg as a loading dose on the day of transplant and 2.5 mg/kg daily for 13 additional days (14 days of treatment; 36.5 mg/kg total dose). The next three patients received the same dosing regimen but it was initiated on postoperative day 12 to coincide with the resurgence of monocytes on days 12- 25.."
+13296605,NCT00002548,Active Comparator,HDCTX and PBSC,"High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",12896636,Drug,doxorubicin hydrochloride,10 mg/m2/day continuous 1 - 4 q 5 weeks,"HDCTX and PBSC
+
+High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",doxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks.,"Drug
+doxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks."
+13296605,NCT00002548,Active Comparator,HDCTX and PBSC,"High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",12896637,Drug,melphalan,140 mg/m2 is given IV within 30 minutes of constitution on Day -5,"HDCTX and PBSC
+
+High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",melphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5.,"Drug
+melphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5."
+13296605,NCT00002548,Active Comparator,HDCTX and PBSC,"High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",12896638,Drug,prednisone,40 mg/m2 PO days 1-7 q 35 days,"HDCTX and PBSC
+
+High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",prednisone: 40 mg/m2 PO days 1-7 q 35 days.,"Drug
+prednisone: 40 mg/m2 PO days 1-7 q 35 days."
+13296605,NCT00002548,Active Comparator,HDCTX and PBSC,"High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",12896639,Drug,vincristine sulfate,0.5 mg/day continuous 1 - 4 q 5 weeks,"HDCTX and PBSC
+
+High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",vincristine sulfate: 0.5 mg/day continuous 1 - 4 q 5 weeks.,"Drug
+vincristine sulfate: 0.5 mg/day continuous 1 - 4 q 5 weeks."
+13296605,NCT00002548,Active Comparator,HDCTX and PBSC,"High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",12896642,Procedure,peripheral blood stem cell transplantation,day 0,"HDCTX and PBSC
+
+High dose chemotherapy with peripheral blood stem cells
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7",peripheral blood stem cell transplantation: day 0.,"Procedure
+peripheral blood stem cell transplantation: day 0."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896633,Drug,carmustine,20 mg/m2 I.V. day 1 q 35 days,"HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",carmustine: 20 mg/m2 I.V. day 1 q 35 days.,"Drug
+carmustine: 20 mg/m2 I.V. day 1 q 35 days."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896634,Drug,cyclophosphamide,"1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2)","HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0","cyclophosphamide: 1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2).","Drug
+cyclophosphamide: 1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2)."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896635,Drug,dexamethasone,"40 mg/day PO or IVPB days 1-4, 9-12, 17-20 q 5 weeks","HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0","dexamethasone: 40 mg/day PO or IVPB days 1-4, 9-12, 17-20 q 5 weeks.","Drug
+dexamethasone: 40 mg/day PO or IVPB days 1-4, 9-12, 17-20 q 5 weeks."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896636,Drug,doxorubicin hydrochloride,10 mg/m2/day continuous 1 - 4 q 5 weeks,"HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",doxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks.,"Drug
+doxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896637,Drug,melphalan,140 mg/m2 is given IV within 30 minutes of constitution on Day -5,"HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",melphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5.,"Drug
+melphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896638,Drug,prednisone,40 mg/m2 PO days 1-7 q 35 days,"HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",prednisone: 40 mg/m2 PO days 1-7 q 35 days.,"Drug
+prednisone: 40 mg/m2 PO days 1-7 q 35 days."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896640,Procedure,allogeneic bone marrow transplantation,day 0,"HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",allogeneic bone marrow transplantation: day 0.,"Procedure
+allogeneic bone marrow transplantation: day 0."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896641,Procedure,autologous bone marrow transplantation,day 0,"HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",autologous bone marrow transplantation: day 0.,"Procedure
+autologous bone marrow transplantation: day 0."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896642,Procedure,peripheral blood stem cell transplantation,day 0,"HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",peripheral blood stem cell transplantation: day 0.,"Procedure
+peripheral blood stem cell transplantation: day 0."
+13296606,NCT00002548,Experimental,HDCTX with PBSC and Autologous BMT,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0",12896643,Radiation,radiation therapy,"administered in fractionated doses of 150 cGy, 6 - 10 hours apart bid, on Days -4, -3, -2, and -1 (Total 1,200 cGy)","HDCTX with PBSC and Autologous BMT
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Auto Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0","radiation therapy: administered in fractionated doses of 150 cGy, 6 - 10 hours apart bid, on Days -4, -3, -2, and -1 (Total 1,200 cGy).","Radiation
+radiation therapy: administered in fractionated doses of 150 cGy, 6 - 10 hours apart bid, on Days -4, -3, -2, and -1 (Total 1,200 cGy)."
+13296607,NCT00002548,Experimental,HDCTX with PBSC and interferon,"High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",12896632,Biological,recombinant interferon alfa,"3 million units/m2 SQ Monday-Wednesday
+-Friday (3 times a week)","HDCTX with PBSC and interferon
+
+High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ","recombinant interferon alfa: 3 million units/m2 SQ Monday-Wednesday
+-Friday (3 times a week).","Biological
+recombinant interferon alfa: 3 million units/m2 SQ Monday-Wednesday
+-Friday (3 times a week)."
+13296607,NCT00002548,Experimental,HDCTX with PBSC and interferon,"High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",12896636,Drug,doxorubicin hydrochloride,10 mg/m2/day continuous 1 - 4 q 5 weeks,"HDCTX with PBSC and interferon
+
+High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",doxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks.,"Drug
+doxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks."
+13296607,NCT00002548,Experimental,HDCTX with PBSC and interferon,"High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",12896637,Drug,melphalan,140 mg/m2 is given IV within 30 minutes of constitution on Day -5,"HDCTX with PBSC and interferon
+
+High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",melphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5.,"Drug
+melphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5."
+13296607,NCT00002548,Experimental,HDCTX with PBSC and interferon,"High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",12896638,Drug,prednisone,40 mg/m2 PO days 1-7 q 35 days,"HDCTX with PBSC and interferon
+
+High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",prednisone: 40 mg/m2 PO days 1-7 q 35 days.,"Drug
+prednisone: 40 mg/m2 PO days 1-7 q 35 days."
+13296607,NCT00002548,Experimental,HDCTX with PBSC and interferon,"High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",12896639,Drug,vincristine sulfate,0.5 mg/day continuous 1 - 4 q 5 weeks,"HDCTX with PBSC and interferon
+
+High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",vincristine sulfate: 0.5 mg/day continuous 1 - 4 q 5 weeks.,"Drug
+vincristine sulfate: 0.5 mg/day continuous 1 - 4 q 5 weeks."
+13296607,NCT00002548,Experimental,HDCTX with PBSC and interferon,"High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",12896642,Procedure,peripheral blood stem cell transplantation,day 0,"HDCTX with PBSC and interferon
+
+High dose chemotherapy with peripheral blood stem cells and interferon
+Experimental: HDCTX with PBSC and interferon High dose chemotherapy with peripheral blood stem cells and interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Chemo: vincristine 1.2 mg/m2 IV D1, BCNU 20 mg/m2 IV D1, melphalan 8 mg/m2 PO D1-4, cyclophosphamide 400 mg/m2 IV D1, prednisone 40 mg/m2 PO D1-7
+IFN: IFN 3 million units/m2 MWF SQ",peripheral blood stem cell transplantation: day 0.,"Procedure
+peripheral blood stem cell transplantation: day 0."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896632,Biological,recombinant interferon alfa,"3 million units/m2 SQ Monday-Wednesday
+-Friday (3 times a week)","HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ","recombinant interferon alfa: 3 million units/m2 SQ Monday-Wednesday
+-Friday (3 times a week).","Biological
+recombinant interferon alfa: 3 million units/m2 SQ Monday-Wednesday
+-Friday (3 times a week)."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896633,Drug,carmustine,20 mg/m2 I.V. day 1 q 35 days,"HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",carmustine: 20 mg/m2 I.V. day 1 q 35 days.,"Drug
+carmustine: 20 mg/m2 I.V. day 1 q 35 days."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896634,Drug,cyclophosphamide,"1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2)","HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ","cyclophosphamide: 1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2).","Drug
+cyclophosphamide: 1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2)."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896635,Drug,dexamethasone,"40 mg/day PO or IVPB days 1-4, 9-12, 17-20 q 5 weeks","HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ","dexamethasone: 40 mg/day PO or IVPB days 1-4, 9-12, 17-20 q 5 weeks.","Drug
+dexamethasone: 40 mg/day PO or IVPB days 1-4, 9-12, 17-20 q 5 weeks."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896636,Drug,doxorubicin hydrochloride,10 mg/m2/day continuous 1 - 4 q 5 weeks,"HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",doxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks.,"Drug
+doxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896637,Drug,melphalan,140 mg/m2 is given IV within 30 minutes of constitution on Day -5,"HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",melphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5.,"Drug
+melphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896638,Drug,prednisone,40 mg/m2 PO days 1-7 q 35 days,"HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",prednisone: 40 mg/m2 PO days 1-7 q 35 days.,"Drug
+prednisone: 40 mg/m2 PO days 1-7 q 35 days."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896641,Procedure,autologous bone marrow transplantation,day 0,"HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",autologous bone marrow transplantation: day 0.,"Procedure
+autologous bone marrow transplantation: day 0."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896642,Procedure,peripheral blood stem cell transplantation,day 0,"HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",peripheral blood stem cell transplantation: day 0.,"Procedure
+peripheral blood stem cell transplantation: day 0."
+13296608,NCT00002548,Experimental,HDCTX with PBSC and transplant plus IFN,"High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ",12896643,Radiation,radiation therapy,"administered in fractionated doses of 150 cGy, 6 - 10 hours apart bid, on Days -4, -3, -2, and -1 (Total 1,200 cGy)","HDCTX with PBSC and transplant plus IFN
+
+High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+Experimental: HDCTX with PBSC and transplant plus IFN High dose chemotherapy with peripheral blood stem cells and autologous bone marrow transplant plus alpha interferon
+High dose chemotherapy with peripheral blood stem cells IND (q 5 weeks): vincristine 0.5 mg/d cont IV D1-4; adriamycin 10mg/m2/d cont IV D1-4; dex 40 mg/d PO or IVPB D1-4, 9-12, 17-20
+2nd Reg: cyclophosphamide 1.5g/m2 IV over 1 hr every 3 hrs x 3 (4.5g/m2 total); MESNA 4.5 g/m2 24 hr IV start with cyclo; GCSF 0.25 mg/m2/d SQ; PBSC collection
+Trans: Mel 140mg/m2 IV D-5; TBI 150cGy D-4, -3, -2, -1; infusion D0
+IFN: 3 million units/m2 MWF SQ","radiation therapy: administered in fractionated doses of 150 cGy, 6 - 10 hours apart bid, on Days -4, -3, -2, and -1 (Total 1,200 cGy).","Radiation
+radiation therapy: administered in fractionated doses of 150 cGy, 6 - 10 hours apart bid, on Days -4, -3, -2, and -1 (Total 1,200 cGy)."
+13298553,NCT00002556,Active Comparator,ARM A (VBMCP),"INDUCTION PHASE: Patients receive VBMCP comprising vincristine sulfate IV on day 1, carmustine IV on day 1, melphalan PO on days 1-4, cyclophosphamide IV on day 1, and prednisone PO on days 1-7. Treatment repeats every 35 days for 2 courses in the absence of disease progression or unacceptable toxicity.
+CONSOLIDATION PHASE: Patients receive VBMCP as in the induction phase. Courses repeat every 35 days in the absence of disease progression or unacceptable toxicity.",12904486,Drug,vincristine sulfate,Given IV,"ARM A (VBMCP)
+
+INDUCTION PHASE: Patients receive VBMCP comprising vincristine sulfate IV on day 1, carmustine IV on day 1, melphalan PO on days 1-4, cyclophosphamide IV on day 1, and prednisone PO on days 1-7. Treatment repeats every 35 days for 2 courses in the absence of disease progression or unacceptable toxicity.
+CONSOLIDATION PHASE: Patients receive VBMCP as in the induction phase. Courses repeat every 35 days in the absence of disease progression or unacceptable toxicity.",vincristine sulfate: Given IV.,"Drug
+vincristine sulfate: Given IV."

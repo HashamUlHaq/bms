@@ -1,0 +1,11 @@
+DRUG,Drug
+DOSAGE,Dosage
+STRENGTH,Strength
+DURATION,CycleLength
+FREQUENCY,Frequency
+ROUTE,Administration
+FORM,Form
+TREATMENT,Treatment
+Treatment,Treatment
+TEST,Test
+Drug_BrandName,Drug
