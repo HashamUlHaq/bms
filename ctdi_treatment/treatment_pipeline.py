@@ -55,11 +55,14 @@ def build_treatment_pipeline(editable_models_path="../models/editable",fixed_mod
     # Preprocessing pipeline
     da = DocumentAssembler().setInputCol("text").setOutputCol("document")
     #sd = SentenceDetectorDLModel.pretrained("sentence_detector_dl_healthcare","en","clinical/models") \
+    
     sd = SentenceDetector().setCustomBounds(["\r\n","\n","\r",": ","; ","\. "])\
         .setInputCols(["document"]) \
         .setOutputCol("sentence")
+    
     tk = Tokenizer().setInputCols("sentence").setOutputCol("token")
     emb = WordEmbeddingsModel.pretrained("embeddings_clinical","en","clinical/models").setOutputCol("embs")
+    
     pos = PerceptronModel().pretrained("pos_clinical", "en", "clinical/models") \
         .setInputCols(["sentence", "token"]).setOutputCol("pos_tags")
     dependency_parser = DependencyParserModel()\
@@ -81,7 +84,7 @@ def build_treatment_pipeline(editable_models_path="../models/editable",fixed_mod
     if cms:
         cms[-1].setOutputCol("all_chunk")
     else:
-        ner_pl[-1].setOutputCol("all_chunk")
+        ner_pl[-1].setOutputCol("all_chunk") ## so, all_chunk is everything - Treatment, full posology - NER
 
     rexm = RegexMatcher()\
       .setExternalRules(f"{editable_models_path}/arms_regex.csv", ",", "TEXT")\
@@ -99,15 +102,26 @@ def build_treatment_pipeline(editable_models_path="../models/editable",fixed_mod
         .setMergeOverlapping(False)\
         .setReplaceDictResource(f"{editable_models_path}/replace_dict.csv","TEXT", {"delimiter":","})\
         .setFalsePositivesResource(f"{editable_models_path}/fp_dict.csv","TEXT", {"delimiter":","})
+    
     cmrha = ChunkMergeApproach().setInputCols("rex_text_chunk","all_chunk").setOutputCol("full_chunk")\
         .setMergeOverlapping(False) \
         .setReplaceDictResource(f"{editable_models_path}/replace_dict.csv","TEXT", {"delimiter":","})\
         .setFalsePositivesResource(f"{editable_models_path}/fp_dict.csv","TEXT", {"delimiter":","})
 
     #conv_drug = ChunkFilterer().setInputCols("sentence","full_chunk").setOutputCol("drug_chunk").setWhiteList(["Drug","drug","DRUG"])
-    conv_drug = ChunkMergeApproach().setInputCols("full_chunk","all_chunk").setOutputCol("drug_chunk").setMergeOverlapping(False).setReplaceDictResource(f"{fixed_models_path}/replace_dict_drug.csv","TEXT", {"delimiter":","})
+    conv_drug = ChunkMergeApproach()\
+        .setInputCols("full_chunk","all_chunk")\
+        .setOutputCol("drug_chunk")\
+        .setMergeOverlapping(False)\
+        .setReplaceDictResource(f"{fixed_models_path}/replace_dict_drug.csv","TEXT", {"delimiter":","})
+    
     #conv_treat = ChunkFilterer().setInputCols("sentence","full_chunk").setOutputCol("treat_chunk").setWhiteList(["TREATMENT"])
-    conv_treat = ChunkMergeApproach().setInputCols("full_chunk","full_chunk").setOutputCol("treat_chunk").setMergeOverlapping(False).setReplaceDictResource(f"{fixed_models_path}/replace_dict_treat.csv","TEXT", {"delimiter":","})
+    
+    conv_treat = ChunkMergeApproach()\
+        .setInputCols("full_chunk","full_chunk")\
+        .setOutputCol("treat_chunk")\
+        .setMergeOverlapping(False)\
+        .setReplaceDictResource(f"{fixed_models_path}/replace_dict_treat.csv","TEXT", {"delimiter":","})
 
     
     pair_nd = ["strength","duration","frequency","dosage","route","form",

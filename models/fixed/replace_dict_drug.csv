@@ -5,7 +5,7 @@ DURATION,
 FREQUENCY,
 ROUTE,
 FORM,
-TREATMENT,
-Treatment,
+TREATMENT,Treatment
+Treatment,Treatment
 TEST,
 Drug_BrandName,Drug

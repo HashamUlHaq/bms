@@ -1,0 +1,1174 @@
+[
+    {
+        "Placebo Comparator A": [
+            {
+                "neverpain": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "placebo": {
+                    "dosage": "",
+                    "form": "pill",
+                    "route": "",
+                    "strength": "25mg/day",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "for 6 months"
+                }
+            }
+        ]
+    },
+    {
+        "Active Comparator B": [
+            {
+                "p1e1": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "25mg/day",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "for 6 months"
+                }
+            }
+        ]
+    },
+    {
+        "Experimental Arm A": [
+            {
+                "eovist": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "gemcitabine": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "IV",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "rituximab": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "every 3 weeks",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "IV",
+                    "cyclelength": "for 6 cycles"
+                }
+            },
+            {
+                "relacon-hc": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "every 3 weeks",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "IV",
+                    "cyclelength": "for 6 cycles"
+                }
+            },
+            {
+                "rituximab": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "rituximab": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "every 3 weeks",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "for 6 cycles"
+                }
+            },
+            {
+                "chemocycline": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "every 3 weeks",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "for 6 cycles"
+                }
+            }
+        ]
+    },
+    {
+        "Experimental 1": [
+            {
+                "filgrastim": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "filgrastim": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "for 10 days"
+                }
+            },
+            {
+                "roferon-a": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "for 10 days"
+                }
+            },
+            {
+                "rituximab": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "roferon-a": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "every 3 weeks",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "for up to 6 cycle"
+                }
+            },
+            {
+                "eovist": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "roferon-a": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "every 3 weeks",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "for up to 6 cycle"
+                }
+            }
+        ]
+    },
+    {
+        "Experimental Anti-Tac yttrium 90-labeled humanized anti-Tac (90 Y-HAT)": [
+            {
+                "antihist": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "sus scrofa bone marrow preparation": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "15 mCi",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "postprophy oral liquid product": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "15 mCi",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "crizanlizumab-tmca": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "pentetate calcium trisodium injectable solution [calcium disodium versenate]": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "acamprosate calcium": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "acamprosate calcium": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "intravenously",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "radiogradase": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "intravenously",
+                    "cyclelength": ""
+                }
+            }
+        ]
+    },
+    {
+        "Experimental Low-Intermediate Risk B-Cell Pts": [
+            {
+                "dialysis solutions": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "nasabid 600/90": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "decongex-3": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            }
+        ]
+    },
+    {
+        "Experimental Intermediate-high Risk B-Cell Pts": [
+            {
+                "rituximab": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "rituxan": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "fludarabine phosphate": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "fludara": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            }
+        ]
+    },
+    {
+        "Experimental Alemtuzumab and DSG": [
+            {
+                "alemtuzumab": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "delsym": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "alemtuzumab": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "0.3 mg/kg/dose",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "intravenously",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "organ concentrates": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "1.2 mg/kg",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "methylprednisolone": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "desoxyn gradumet": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "prefilled applicator": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "2.5 mg/kg",
+                    "frequency": "daily",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "organ concentrates": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "2.5 mg/kg",
+                    "frequency": "daily",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "14 days"
+                }
+            },
+            {
+                "propel": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "2.5 mg/kg",
+                    "frequency": "daily",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "14 days"
+                }
+            },
+            {
+                "siltane oral product": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            }
+        ]
+    },
+    {
+        "Active Comparator HDCTX and PBSC": [
+            {
+                "doxorubicin hydrochloride": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "melphalan": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "prednisone": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "vincristine sulfate": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "human cord blood hematopoietic progenitor cell": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            }
+        ]
+    },
+    {
+        "Experimental HDCTX with PBSC and Autologous BMT": [
+            {
+                "carmustine": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "cyclophosphamide": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "anolor dh5": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "1.5 g/m2 in 100 ml",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "intravenous suspension": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "4.5 g/m2",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "over 1 hour every 3 hour"
+                }
+            },
+            {
+                "dexamethasone": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "ibu-4": {
+                    "dosage": "17-20",
+                    "form": "",
+                    "route": "",
+                    "strength": "40 mg/day",
+                    "frequency": "q 5 weeks",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "PO",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "doxorubicin hydrochloride": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "melphalan": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "prednisone": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "sus scrofa bone marrow preparation": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "sus scrofa bone marrow preparation": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "human cord blood hematopoietic progenitor cell": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "gemcitabine": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            }
+        ]
+    },
+    {
+        "Experimental HDCTX with PBSC and interferon": [
+            {
+                "recombinant interferon": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "doxorubicin hydrochloride": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "melphalan": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "prednisone": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "vincristine sulfate": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "human cord blood hematopoietic progenitor cell": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            }
+        ]
+    },
+    {
+        "Experimental HDCTX with PBSC and transplant plus IFN": [
+            {
+                "recombinant interferon": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "carmustine": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "cyclophosphamide": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "anolor dh5": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "1.5 g/m2 in 100 ml",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "intravenous suspension": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "4.5 g/m2",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": "over 1 hour every 3 hour"
+                }
+            },
+            {
+                "dexamethasone": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "ibu-4": {
+                    "dosage": "17-20",
+                    "form": "",
+                    "route": "",
+                    "strength": "40 mg/day",
+                    "frequency": "q 5 weeks",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "PO",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "doxorubicin hydrochloride": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "melphalan": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "prednisone": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "sus scrofa bone marrow preparation": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "human cord blood hematopoietic progenitor cell": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            },
+            {
+                "gemcitabine": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            }
+        ]
+    },
+    {
+        "Active Comparator ARM A (VBMCP)": [
+            {
+                "vincristine sulfate": {
+                    "dosage": "",
+                    "form": "",
+                    "route": "",
+                    "strength": "",
+                    "frequency": "",
+                    "duration": "",
+                    "disposition": "",
+                    "relativedate": "",
+                    "administration": "",
+                    "cyclelength": ""
+                }
+            }
+        ]
+    }
+]
