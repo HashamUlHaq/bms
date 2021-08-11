@@ -109,13 +109,19 @@ def build_treatment_pipeline(editable_models_path="../models/editable",fixed_mod
     #conv_treat = ChunkFilterer().setInputCols("sentence","full_chunk").setOutputCol("treat_chunk").setWhiteList(["TREATMENT"])
     conv_treat = ChunkMergeApproach().setInputCols("full_chunk","full_chunk").setOutputCol("treat_chunk").setMergeOverlapping(False).setReplaceDictResource(f"{fixed_models_path}/replace_dict_treat.csv","TEXT", {"delimiter":","})
 
+    
+    pair_nd = ["strength","duration","frequency","dosage","route","form",
+                           "relativedate","administration","cyclelength"]
+    pair_dr = ['drug', 'treatment']
+    pairs = [ f'{j}-{i}' for i in pair_nd for j in pair_dr]
+    pairs += [ i.split('-')[1]+'-'+i.split('-')[0] for i in pairs ]
+
     posology_re = RelationExtractionModel()\
         .pretrained("posology_re")\
         .setInputCols(["embs", "pos_tags", "full_chunk", "dependencies"])\
         .setOutputCol("relations")\
         .setMaxSyntacticDistance(5)\
-        .setRelationPairs(["drug-strength","drug-duration","drug-frequency","drug-dosage","drug-route","drug-form",
-                           "drug-relativedate","drug-administration","drug-cyclelength"])
+        .setRelationPairs(pairs)
 
     c2d = Chunk2Doc().setInputCols("drug_chunk").setOutputCol("sbert_doc")
 
