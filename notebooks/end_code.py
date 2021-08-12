@@ -22,7 +22,6 @@ tit_sep = "\n\n"
 
 
 alldf["arm_title_desc"] = alldf["title"]+tit_sep+alldf["arm_desc"]
-
 alldf["intervention_name_desc"] = alldf["name"]+name_sep+alldf["intervention_desc"]+sent_sep
 
 pipeline = build_treatment_pipeline()
@@ -88,6 +87,67 @@ def find_drugs(res, resolution_res):
                 drugs[lrgst][resolutions[lrgst]][i.metadata['entity'].strip().title()] = i.result
                 
     return list(drugs.values())
+
+def relate_drugs(res, sentences, relations, resolution_res, intervention_type):
+    
+    drug_ent_list = ['drug', 'treatment']
+    
+    resolutions_list = {}
+    for i in resolution_res:
+        resolutions_list[int(i.begin)] = { 'resolved_text' : i.metadata['resolved_text'],
+                                     'disposition' : 'pa'}
+        
+    sentences_list = {}
+    for i in sentences:
+        sentences_list[int(i.metadata['sentence'])] = i.result
+    
+    #print (sentences_list)
+    
+    drugs_list = {}
+    other_entities = {}
+    
+    drug_in_this = False
+    for i in res:
+        if i.metadata['entity'].lower().strip() == 'drug':
+            drug_in_this = True
+    
+    if drug_in_this == True:
+        drug_ent_list = ['drug']
+        
+    
+    for i in res:
+        #print(int(i.begin))
+        if i.metadata['entity'].lower().strip() in drug_ent_list:
+            drugs_list[int(i.begin)] = { resolutions_list[int(i.begin)]['resolved_text'] : {
+                                            "raw_sentence": sentences_list[int(i.metadata['sentence'])],
+                                            "raw_drug" : i.result,
+                                            "drug_entity": i.metadata['entity'],
+                                            "resolved_drug": resolutions_list[int(i.begin)]['resolved_text'],
+                                            'intervention_type': intervention_type,
+                                            "associated_details" : { 'dosage' : '', 'form': '', 'route': '',
+                                                                       'strength': '', 'frequency': '', 
+                                                                        'duration': '', 
+                                                'disposition': resolutions_list[int(i.begin)]['disposition'],
+                                                                        'relativedate' : '', 
+                                                                         'administration' : '', 'cyclelength' : '',
+                                                                       }
+                                           }
+                                       }
+        else:
+            other_entities[int(i.begin)] = {'type': i.metadata['entity'].strip().lower(), 'chunk': i.result}
+    
+    for rel in relations:
+        if rel.metadata['entity1'].lower().strip() in drug_ent_list:
+            drug_ent_id = int(rel.metadata['entity1_begin'])
+            oth_ent = other_entities[int(rel.metadata['entity2_begin'])]
+            drugs_list[drug_ent_id][resolutions_list[drug_ent_id]['resolved_text']]['associated_details'][oth_ent['type']] = oth_ent['chunk']
+        
+        elif rel.metadata['entity2'].lower().strip() in drug_ent_list:
+            drug_ent_id = int(rel.metadata['entity2_begin'])
+            oth_ent = other_entities[int(rel.metadata['entity1_begin'])]
+            drugs_list[drug_ent_id][resolutions_list[drug_ent_id]['resolved_text']]['associated_details'][oth_ent['type']] = oth_ent['chunk']
+        
+    return list(drugs_list.values())
                              
 
 assert len(intervention_res) == annotation_df.shape[0] == len(arm_res)
@@ -100,8 +160,11 @@ for index in range(annotation_df.shape[0]):
     row_rec = annotation_df.iloc[index]
     
     found_drugs = False
-    found_drugs_i = find_drugs(ires_rec['all_chunk'], ires_rec['resolution_rxnorm'] ) 
-    found_drugs_a = find_drugs(ares_rec['all_chunk'], ares_rec['resolution_rxnorm'])
+    found_drugs_i = relate_drugs(ires_rec['full_chunk'], ires_rec['sentence'],
+                                 ires_rec['relations'], ires_rec['resolution_rxnorm'] , 
+                                 row_rec['intervention_type']) 
+    found_drugs_a = relate_drugs(ares_rec['full_chunk'], ares_rec['sentence'],
+                                 ares_rec['relations'], ares_rec['resolution_rxnorm'] , None)
     if found_drugs_i:
         json_obj[row_rec['group_type'] + ' ' + row_rec['title']] = found_drugs_i
     elif found_drugs_a:

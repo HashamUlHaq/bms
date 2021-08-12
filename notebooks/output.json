@@ -3,24 +3,44 @@
         "Placebo Comparator A": [
             {
                 "neverpain": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "None-placebo",
+                    "raw_drug": "None-placebo",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "neverpain",
+                    "intervention_type": "Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "placebo": {
-                    "Dosage": "",
-                    "Form": "pill",
-                    "Route": "",
-                    "Strength": "25mg/day",
-                    "Frequency": "",
-                    "Duration": "for 6 months",
-                    "Disposition": ""
+                    "raw_sentence": "placebo was taken in pill form at 25mg/day for 6 months.",
+                    "raw_drug": "placebo",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "placebo",
+                    "intervention_type": "Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "pill",
+                        "route": "",
+                        "strength": "25mg/day",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": "for 6 months"
+                    }
                 }
             }
         ]
@@ -28,14 +48,24 @@
     {
         "Active Comparator B": [
             {
-                "n-acetyl dipeptide-1": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "po",
-                    "Strength": "25mg/day",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                "p1e1": {
+                    "raw_sentence": "dnaJP1 was taken in pill form at 25mg/day for 6 months.",
+                    "raw_drug": "dnaJP1",
+                    "drug_entity": "Treatment",
+                    "resolved_drug": "p1e1",
+                    "intervention_type": "Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "25mg/day",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": "for 6 months"
+                    }
                 }
             }
         ]
@@ -44,46 +74,86 @@
         "Experimental Arm A": [
             {
                 "rituximab": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Combination chemotherapy given with Rituximab (EPOCH-R) IV every 3 weeks for 6 cycles.",
+                    "raw_drug": "Rituximab",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "rituximab",
+                    "intervention_type": "Drug|Biological",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "every 3 weeks",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "IV",
+                        "cyclelength": "for 6 cycles"
+                    }
                 }
             },
             {
                 "relacon-hc": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "IV",
-                    "Strength": "",
-                    "Frequency": "every 3 weeks",
-                    "Duration": "for 6 cycles",
-                    "Disposition": ""
+                    "raw_sentence": "Combination chemotherapy given with Rituximab (EPOCH-R) IV every 3 weeks for 6 cycles.",
+                    "raw_drug": "EPOCH-R)",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "relacon-hc",
+                    "intervention_type": "Drug|Biological",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "every 3 weeks",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "IV",
+                        "cyclelength": "for 6 cycles"
+                    }
                 }
             },
             {
                 "rituximab": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Rituximab",
+                    "raw_drug": "Rituximab",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "rituximab",
+                    "intervention_type": "Drug|Biological",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "rituximab": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "every 3 weeks",
-                    "Duration": "for 6 cycles",
-                    "Disposition": ""
+                    "raw_sentence": "Rituximab given on Day 1 of combination chemotherapy (EPOCH-R) every 3 weeks for 6 cycles.",
+                    "raw_drug": "Rituximab",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "rituximab",
+                    "intervention_type": "Drug|Biological",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "every 3 weeks",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": "for 6 cycles"
+                    }
                 }
             }
         ]
@@ -92,68 +162,128 @@
         "Experimental 1": [
             {
                 "filgrastim": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Filgrastim",
+                    "raw_drug": "Filgrastim",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "filgrastim",
+                    "intervention_type": "Biological|Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "filgrastim": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Filgrastim after EPOCH-R from Day 6 for 10 days every cycle.",
+                    "raw_drug": "Filgrastim",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "filgrastim",
+                    "intervention_type": "Biological|Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": "for 10 days"
+                    }
                 }
             },
             {
                 "roferon-a": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "for 10 days",
-                    "Disposition": ""
+                    "raw_sentence": "Filgrastim after EPOCH-R from Day 6 for 10 days every cycle.",
+                    "raw_drug": "EPOCH-R",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "roferon-a",
+                    "intervention_type": "Biological|Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": "for 10 days"
+                    }
                 }
             },
             {
                 "rituximab": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Rituximab",
+                    "raw_drug": "Rituximab",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "rituximab",
+                    "intervention_type": "Biological|Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "roferon-a": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "every 3 weeks",
-                    "Duration": "for up to 6 cycle",
-                    "Disposition": ""
+                    "raw_sentence": "EPOCH-R every 3 weeks for up to 6 cycle.",
+                    "raw_drug": "EPOCH-R",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "roferon-a",
+                    "intervention_type": "Biological|Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "every 3 weeks",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": "for up to 6 cycle"
+                    }
                 }
             },
             {
                 "roferon-a": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "every 3 weeks",
-                    "Duration": "for up to 6 cycle",
-                    "Disposition": ""
+                    "raw_sentence": "EPOCH-R every 3 weeks for up to 6 cycle.",
+                    "raw_drug": "EPOCH-R",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "roferon-a",
+                    "intervention_type": "Biological|Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "every 3 weeks",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": "for up to 6 cycle"
+                    }
                 }
             }
         ]
@@ -162,57 +292,107 @@
         "Experimental Anti-Tac yttrium 90-labeled humanized anti-Tac (90 Y-HAT)": [
             {
                 "antihist": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "15 mCi",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Y-90 Humanized Anti-Tac",
+                    "raw_drug": "Anti-Tac",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "antihist",
+                    "intervention_type": "Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "crizanlizumab-tmca": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "15 mCi",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "10 mCi (if a bone marrow transplant was part of the patient's previous therapy) or 15 mCi of yttrium labeled anti-TAC",
+                    "raw_drug": "yttrium labeled anti-TAC",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "crizanlizumab-tmca",
+                    "intervention_type": "Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "pentetate calcium trisodium injectable solution [calcium disodium versenate]": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "followed by calcium trisodium Inj (Ca DTPA).",
+                    "raw_drug": "calcium trisodium Inj (Ca DTPA).",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "pentetate calcium trisodium injectable solution [calcium disodium versenate]",
+                    "intervention_type": "Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "acamprosate calcium": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Calcium-DTPA",
+                    "raw_drug": "Calcium-DTPA",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "acamprosate calcium",
+                    "intervention_type": "Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "acamprosate calcium": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "intravenously",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Ca-DTPA will be administered intravenously on Days 1-3 to clear the radioactive agent from the body.",
+                    "raw_drug": "Ca-DTPA",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "acamprosate calcium",
+                    "intervention_type": "Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "intravenously",
+                        "cyclelength": ""
+                    }
                 }
             }
         ]
@@ -220,25 +400,66 @@
     {
         "Experimental Low-Intermediate Risk B-Cell Pts": [
             {
-                "chemdec": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                "dialysis solutions": {
+                    "raw_sentence": "Cells can be donated by apheresis (e.g",
+                    "raw_drug": "apheresis",
+                    "drug_entity": "Treatment",
+                    "resolved_drug": "dialysis solutions",
+                    "intervention_type": "Other",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
-                "fludarabine injection": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                "nasabid 600/90": {
+                    "raw_sentence": "60-90 minute intravenous technique), lymph node biopsy (e.g",
+                    "raw_drug": "60-90 minute intravenous technique",
+                    "drug_entity": "Treatment",
+                    "resolved_drug": "nasabid 600/90",
+                    "intervention_type": "Other",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
+                }
+            },
+            {
+                "decongex-3": {
+                    "raw_sentence": "3 biopsy/excision of lymph nodes)bone marrow biopsy (e.g",
+                    "raw_drug": "3 biopsy/excision",
+                    "drug_entity": "Treatment",
+                    "resolved_drug": "decongex-3",
+                    "intervention_type": "Other",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             }
         ]
@@ -247,35 +468,65 @@
         "Experimental Intermediate-high Risk B-Cell Pts": [
             {
                 "rituximab": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Rituximab",
+                    "raw_drug": "Rituximab",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "rituximab",
+                    "intervention_type": "Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "fludarabine phosphate": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Fludarabine phosphate",
+                    "raw_drug": "Fludarabine phosphate",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "fludarabine phosphate",
+                    "intervention_type": "Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "fludara": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Fludara.",
+                    "raw_drug": "Fludara",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "fludara",
+                    "intervention_type": "Biological|Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             }
         ]
@@ -284,57 +535,107 @@
         "Experimental Alemtuzumab and DSG": [
             {
                 "alemtuzumab": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Alemtuzumab and DSG",
+                    "raw_drug": "Alemtuzumab",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "alemtuzumab",
+                    "intervention_type": "Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "delsym": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Alemtuzumab and DSG",
+                    "raw_drug": "DSG",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "delsym",
+                    "intervention_type": "Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "alemtuzumab": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "intravenously",
-                    "Strength": "1.2 mg/kg",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Alemtuzumab was administered intravenously at 0.3 mg/kg/dose over 3 hr",
+                    "raw_drug": "Alemtuzumab",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "alemtuzumab",
+                    "intervention_type": "Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "0.3 mg/kg/dose",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "intravenously",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "methylprednisolone": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "60 mg",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "Methylprednisolone was given prior to each dose to limit the cytokine release",
+                    "raw_drug": "Methylprednisolone",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "methylprednisolone",
+                    "intervention_type": "Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "desoxyn gradumet": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "36.5 mg/kg",
-                    "Frequency": "daily",
-                    "Duration": "14 days",
-                    "Disposition": ""
+                    "raw_sentence": "Deoxyspergualin was dosed as follows",
+                    "raw_drug": "Deoxyspergualin",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "desoxyn gradumet",
+                    "intervention_type": "Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             }
         ]
@@ -343,46 +644,86 @@
         "Active Comparator HDCTX and PBSC": [
             {
                 "doxorubicin hydrochloride": {
-                    "Dosage": "1 - 4",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "10 mg/m2/day",
-                    "Frequency": "q 5 weeks",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "doxorubicin hydrochloride",
+                    "raw_drug": "doxorubicin hydrochloride",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "doxorubicin hydrochloride",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Procedure",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "melphalan": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "IV",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "melphalan",
+                    "raw_drug": "melphalan",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "melphalan",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Procedure",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "prednisone": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "PO",
-                    "Strength": "40 mg/m2",
-                    "Frequency": "days 1-7 q 35 days",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "prednisone",
+                    "raw_drug": "prednisone",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "prednisone",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Procedure",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "vincristine sulfate": {
-                    "Dosage": "1 - 4",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "0.5 mg/day",
-                    "Frequency": "q 5 weeks",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "vincristine sulfate",
+                    "raw_drug": "vincristine sulfate",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "vincristine sulfate",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Procedure",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             }
         ]
@@ -391,79 +732,149 @@
         "Experimental HDCTX with PBSC and Autologous BMT": [
             {
                 "carmustine": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "I.V",
-                    "Strength": "20 mg/m2",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "carmustine",
+                    "raw_drug": "carmustine",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "carmustine",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "cyclophosphamide": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "1.5 g/m2 in 100 ml",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "cyclophosphamide",
+                    "raw_drug": "cyclophosphamide",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "cyclophosphamide",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "anolor dh5": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "4.5 g/m2",
-                    "Frequency": "",
-                    "Duration": "over 1 hour every 3 hour",
-                    "Disposition": ""
+                    "raw_sentence": "1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2).",
+                    "raw_drug": "D5W",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "anolor dh5",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "1.5 g/m2 in 100 ml",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "dexamethasone": {
-                    "Dosage": "17-20",
-                    "Form": "",
-                    "Route": "PO",
-                    "Strength": "40 mg/day",
-                    "Frequency": "q 5 weeks",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "dexamethasone",
+                    "raw_drug": "dexamethasone",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "dexamethasone",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "doxorubicin hydrochloride": {
-                    "Dosage": "1 - 4",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "10 mg/m2/day",
-                    "Frequency": "q 5 weeks",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "doxorubicin hydrochloride",
+                    "raw_drug": "doxorubicin hydrochloride",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "doxorubicin hydrochloride",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "melphalan": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "IV",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "melphalan",
+                    "raw_drug": "melphalan",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "melphalan",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "prednisone": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "PO",
-                    "Strength": "150 cGy",
-                    "Frequency": "bid",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "prednisone",
+                    "raw_drug": "prednisone",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "prednisone",
+                    "intervention_type": "Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             }
         ]
@@ -472,57 +883,107 @@
         "Experimental HDCTX with PBSC and interferon": [
             {
                 "recombinant interferon": {
-                    "Dosage": "3 million units/m2",
-                    "Form": "",
-                    "Route": "SQ",
-                    "Strength": "",
-                    "Frequency": "Monday-Wednesday",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "recombinant interferon alfa",
+                    "raw_drug": "recombinant interferon alfa",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "recombinant interferon",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Procedure",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "doxorubicin hydrochloride": {
-                    "Dosage": "1 - 4",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "10 mg/m2/day",
-                    "Frequency": "q 5 weeks",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "doxorubicin hydrochloride",
+                    "raw_drug": "doxorubicin hydrochloride",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "doxorubicin hydrochloride",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Procedure",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "melphalan": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "IV",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "melphalan",
+                    "raw_drug": "melphalan",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "melphalan",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Procedure",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "prednisone": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "PO",
-                    "Strength": "40 mg/m2",
-                    "Frequency": "days 1-7 q 35 days",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "prednisone",
+                    "raw_drug": "prednisone",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "prednisone",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Procedure",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "vincristine sulfate": {
-                    "Dosage": "1 - 4",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "0.5 mg/day",
-                    "Frequency": "q 5 weeks",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "vincristine sulfate",
+                    "raw_drug": "vincristine sulfate",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "vincristine sulfate",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Procedure",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             }
         ]
@@ -531,90 +992,170 @@
         "Experimental HDCTX with PBSC and transplant plus IFN": [
             {
                 "recombinant interferon": {
-                    "Dosage": "3 million units/m2",
-                    "Form": "",
-                    "Route": "SQ",
-                    "Strength": "",
-                    "Frequency": "Monday-Wednesday",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "recombinant interferon alfa",
+                    "raw_drug": "recombinant interferon alfa",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "recombinant interferon",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "carmustine": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "I.V",
-                    "Strength": "20 mg/m2",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "carmustine",
+                    "raw_drug": "carmustine",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "carmustine",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "cyclophosphamide": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "1.5 g/m2 in 100 ml",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "cyclophosphamide",
+                    "raw_drug": "cyclophosphamide",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "cyclophosphamide",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "anolor dh5": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "4.5 g/m2",
-                    "Frequency": "",
-                    "Duration": "over 1 hour every 3 hour",
-                    "Disposition": ""
+                    "raw_sentence": "1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2).",
+                    "raw_drug": "D5W",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "anolor dh5",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "1.5 g/m2 in 100 ml",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "dexamethasone": {
-                    "Dosage": "17-20",
-                    "Form": "",
-                    "Route": "PO",
-                    "Strength": "40 mg/day",
-                    "Frequency": "q 5 weeks",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "dexamethasone",
+                    "raw_drug": "dexamethasone",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "dexamethasone",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "doxorubicin hydrochloride": {
-                    "Dosage": "1 - 4",
-                    "Form": "",
-                    "Route": "",
-                    "Strength": "10 mg/m2/day",
-                    "Frequency": "q 5 weeks",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "doxorubicin hydrochloride",
+                    "raw_drug": "doxorubicin hydrochloride",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "doxorubicin hydrochloride",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "melphalan": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "IV",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "melphalan",
+                    "raw_drug": "melphalan",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "melphalan",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             },
             {
                 "prednisone": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "PO",
-                    "Strength": "150 cGy",
-                    "Frequency": "bid",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "prednisone",
+                    "raw_drug": "prednisone",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "prednisone",
+                    "intervention_type": "Biological|Drug|Drug|Drug|Drug|Drug|Drug|Procedure|Procedure|Radiation",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             }
         ]
@@ -623,13 +1164,23 @@
         "Active Comparator ARM A (VBMCP)": [
             {
                 "vincristine sulfate": {
-                    "Dosage": "",
-                    "Form": "",
-                    "Route": "IV",
-                    "Strength": "",
-                    "Frequency": "",
-                    "Duration": "",
-                    "Disposition": ""
+                    "raw_sentence": "vincristine sulfate",
+                    "raw_drug": "vincristine sulfate",
+                    "drug_entity": "Drug",
+                    "resolved_drug": "vincristine sulfate",
+                    "intervention_type": "Drug",
+                    "associated_details": {
+                        "dosage": "",
+                        "form": "",
+                        "route": "",
+                        "strength": "",
+                        "frequency": "",
+                        "duration": "",
+                        "disposition": "pa",
+                        "relativedate": "",
+                        "administration": "",
+                        "cyclelength": ""
+                    }
                 }
             }
         ]
