@@ -1,0 +1,3149 @@
+[
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "pZRCJYtj43",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 12,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 0,
+                            "text": "None-placebo"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "u1rwTpDIlM",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 21,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 14,
+                            "text": "placebo"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "zQEe6PFu2Q",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 39,
+                            "labels": [
+                                "form"
+                            ],
+                            "start": 35,
+                            "text": "pill"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "v2qIwjy8M0",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 56,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 48,
+                            "text": "25mg/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "UqhEgLAZGI",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 69,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 57,
+                            "text": "for 6 months"
+                        }
+                    },
+                    {
+                        "from_id": "u1rwTpDIlM",
+                        "to_id": "zQEe6PFu2Q",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "u1rwTpDIlM",
+                        "to_id": "v2qIwjy8M0",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "u1rwTpDIlM",
+                        "to_id": "UqhEgLAZGI",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "None-placebo: placebo was taken in pill form at 25mg/day for 6 months.",
+            "title": "NCT0000043513299803"
+        },
+        "id": 0
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "5cPXny8jvj",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 20,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 14,
+                            "text": "dnaJP1"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "etS2vx2u2H",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 55,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 47,
+                            "text": "25mg/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "7IY4hARCFo",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 68,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 56,
+                            "text": "for 6 months"
+                        }
+                    },
+                    {
+                        "from_id": "5cPXny8jvj",
+                        "to_id": "etS2vx2u2H",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "5cPXny8jvj",
+                        "to_id": "7IY4hARCFo",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "dnaJ peptide: dnaJP1 was taken in pill form at 25mg/day for 6 months.",
+            "title": "NCT0000043513299804"
+        },
+        "id": 1
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "jO6uDcBlN0",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 5,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 0,
+                            "text": "EPOCH"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "010cEiULHx",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 31,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 7,
+                            "text": "Combination chemotherapy"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "oVVwTzG21a",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 52,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 43,
+                            "text": "Rituximab"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "S4gc5kKidl",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 62,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 54,
+                            "text": "EPOCH-R)"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "4YKK91VHY4",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 65,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 63,
+                            "text": "IV"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "2TELUgyGEX",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 79,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 66,
+                            "text": "every 3 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "1xrbkpSUHZ",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 92,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 80,
+                            "text": "for 6 cycles"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "axkJBCKioF",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 105,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 96,
+                            "text": "Rituximab"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "n8sgzHJ8bX",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 116,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 107,
+                            "text": "Rituximab"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "dKkN2KbVRC",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 168,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 147,
+                            "text": "chemotherapy (EPOCH-R"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "mVBdIY1ho2",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 183,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 170,
+                            "text": "every 3 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "S1A6uns115",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 196,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 184,
+                            "text": "for 6 cycles"
+                        }
+                    },
+                    {
+                        "from_id": "010cEiULHx",
+                        "to_id": "4YKK91VHY4",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "oVVwTzG21a",
+                        "to_id": "4YKK91VHY4",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "oVVwTzG21a",
+                        "to_id": "2TELUgyGEX",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "oVVwTzG21a",
+                        "to_id": "1xrbkpSUHZ",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "S4gc5kKidl",
+                        "to_id": "4YKK91VHY4",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "S4gc5kKidl",
+                        "to_id": "2TELUgyGEX",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "S4gc5kKidl",
+                        "to_id": "1xrbkpSUHZ",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "n8sgzHJ8bX",
+                        "to_id": "mVBdIY1ho2",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "n8sgzHJ8bX",
+                        "to_id": "S1A6uns115",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "dKkN2KbVRC",
+                        "to_id": "mVBdIY1ho2",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "dKkN2KbVRC",
+                        "to_id": "S1A6uns115",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "EPOCH: Combination chemotherapy given with Rituximab (EPOCH-R) IV every 3 weeks for 6 cycles..\n\nRituximab: Rituximab given on Day 1 of combination chemotherapy (EPOCH-R) every 3 weeks for 6 cycles..",
+            "title": "NCT0000133713690845"
+        },
+        "id": 2
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "rbYfQGcgFd",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 10,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 0,
+                            "text": "Filgrastim"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "0wVBvXFTVi",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 22,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 12,
+                            "text": "Filgrastim"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "5KQLfQuNzT",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 36,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 29,
+                            "text": "EPOCH-R"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "R2OZY5uNxd",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 59,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 48,
+                            "text": "for 10 days"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "z4BlH2flEi",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 84,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 75,
+                            "text": "Rituximab"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "kJc8r4EzPa",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 93,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 86,
+                            "text": "EPOCH-R"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "19pisREDfr",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 107,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 94,
+                            "text": "every 3 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "WEcAET8Grr",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 125,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 108,
+                            "text": "for up to 6 cycle"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "W5iiCMj4Td",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 133,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 128,
+                            "text": "EPOCH"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "I0RRFybsrS",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 142,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 135,
+                            "text": "EPOCH-R"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "reIPweHzfs",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 156,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 143,
+                            "text": "every 3 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "Pa11FCFOOr",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 174,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 157,
+                            "text": "for up to 6 cycle"
+                        }
+                    },
+                    {
+                        "from_id": "0wVBvXFTVi",
+                        "to_id": "R2OZY5uNxd",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "5KQLfQuNzT",
+                        "to_id": "R2OZY5uNxd",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "kJc8r4EzPa",
+                        "to_id": "19pisREDfr",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "kJc8r4EzPa",
+                        "to_id": "WEcAET8Grr",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "I0RRFybsrS",
+                        "to_id": "reIPweHzfs",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "I0RRFybsrS",
+                        "to_id": "Pa11FCFOOr",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "Filgrastim: Filgrastim after EPOCH-R from Day 6 for 10 days every cycle..\n\nRituximab: EPOCH-R every 3 weeks for up to 6 cycle.\n\nEPOCH: EPOCH-R every 3 weeks for up to 6 cycle.",
+            "title": "NCT0000156313732309"
+        },
+        "id": 3
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "ecAKD8fK3J",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 23,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 15,
+                            "text": "Anti-Tac"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "gKuZqk8aho",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 60,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 36,
+                            "text": "a bone marrow transplant"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "P6hbuSEn3X",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 103,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 73,
+                            "text": "the patient's previous therapy"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "mRanmaSA6E",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 114,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 108,
+                            "text": "15 mCi"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "zf16ENQt3g",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 142,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 118,
+                            "text": "yttrium labeled anti-TAC"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "zPjZjLPQlE",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 188,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 156,
+                            "text": "calcium trisodium Inj (Ca DTPA)."
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "h9dkSE0QF5",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 203,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 191,
+                            "text": "Calcium-DTPA"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "GYo5S1y4X1",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 212,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 205,
+                            "text": "Ca-DTPA"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "CD69i1rZfX",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 247,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 234,
+                            "text": "intravenously"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "sZF43zKp3K",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 290,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 269,
+                            "text": "the radioactive agent"
+                        }
+                    },
+                    {
+                        "from_id": "gKuZqk8aho",
+                        "to_id": "mRanmaSA6E",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "P6hbuSEn3X",
+                        "to_id": "mRanmaSA6E",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "GYo5S1y4X1",
+                        "to_id": "CD69i1rZfX",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "CD69i1rZfX",
+                        "to_id": "sZF43zKp3K",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "Y-90 Humanized Anti-Tac: 10 mCi (if a bone marrow transplant was part of the patient's previous therapy) or 15 mCi of yttrium labeled anti-TAC; followed by calcium trisodium Inj (Ca DTPA)..\n\nCalcium-DTPA: Ca-DTPA will be administered intravenously on Days 1-3 to clear the radioactive agent from the body.",
+            "title": "NCT0000157513299883"
+        },
+        "id": 4
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "tdGAvS9CsJ",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 142,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 133,
+                            "text": "apheresis"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "WD371J8vvS",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 183,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 149,
+                            "text": "60-90 minute intravenous technique"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "7al9cw6mNd",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 227,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 210,
+                            "text": "3 biopsy/excision"
+                        }
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "Leukemic or stroma cells: Patients are eligible to donate cells for the purpose of analyzing leukemic cells. Cells can be donated by apheresis (e.g. 60-90 minute intravenous technique), lymph node biopsy (e.g. 3 biopsy/excision of lymph nodes)bone marrow biopsy (e.g. 2-4 separate bone marrow biopsies), and bone marrow aspiration (e.g. 3 to 5cc of marrow per aspirate)..",
+            "title": "NCT0000158613299880"
+        },
+        "id": 5
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "v30UjiBQGj",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 9,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 0,
+                            "text": "Rituximab"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "1l69vDnDlK",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 18,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 11,
+                            "text": "Rituxan"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "lvNtrdlcfk",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 42,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 21,
+                            "text": "Fludarabine phosphate"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "6zyJhFFzcP",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 51,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 44,
+                            "text": "Fludara"
+                        }
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "Rituximab: Rituxan.\n\nFludarabine phosphate: Fludara.",
+            "title": "NCT0000158613299881"
+        },
+        "id": 6
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "cDVirJe5UM",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 11,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 0,
+                            "text": "Alemtuzumab"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "YKkz4hV8P3",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 19,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 16,
+                            "text": "DSG"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "GdUUFmPqxM",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 32,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 21,
+                            "text": "Alemtuzumab"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "FhB09rD8HO",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 63,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 50,
+                            "text": "intravenously"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "a0BSP6v9nv",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 81,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 67,
+                            "text": "0.3 mg/kg/dose"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "IKQ3GFD0oA",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 179,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 164,
+                            "text": "transplantation"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "KhkVftOJJY",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 201,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 192,
+                            "text": "1.2 mg/kg"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "G6NoYzXBrK",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 222,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 204,
+                            "text": "Methylprednisolone"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "JIb7nQNMHe",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 289,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 283,
+                            "text": "500 mg"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "D3eqkXYPCR",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 313,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 307,
+                            "text": "125 mg"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "8JFWVFeH1X",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 340,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 335,
+                            "text": "60 mg"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "71F2dAcJMu",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 380,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 365,
+                            "text": "Deoxyspergualin"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "z285pWK84T",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 442,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 435,
+                            "text": "4 mg/kg"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "Zy7Z2oF5Nc",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 460,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 446,
+                            "text": "a loading dose"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "tMrrnp9oAD",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 485,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 475,
+                            "text": "transplant"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "eZPjhJMMLS",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 499,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 490,
+                            "text": "2.5 mg/kg"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "TnMdwAS8dS",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 505,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 500,
+                            "text": "daily"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "MU45ZzeXBW",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 528,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 506,
+                            "text": "for 13 additional days"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "zy5gwgXZmF",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 537,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 530,
+                            "text": "14 days"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "bvFHjpOlqD",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 550,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 541,
+                            "text": "treatment"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "zkhjekaERv",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 562,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 552,
+                            "text": "36.5 mg/kg"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "0sJ2sWrooq",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 632,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 609,
+                            "text": "the same dosing regimen"
+                        }
+                    },
+                    {
+                        "from_id": "GdUUFmPqxM",
+                        "to_id": "FhB09rD8HO",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "GdUUFmPqxM",
+                        "to_id": "a0BSP6v9nv",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "IKQ3GFD0oA",
+                        "to_id": "KhkVftOJJY",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "z285pWK84T",
+                        "to_id": "Zy7Z2oF5Nc",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "z285pWK84T",
+                        "to_id": "tMrrnp9oAD",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "Zy7Z2oF5Nc",
+                        "to_id": "eZPjhJMMLS",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "Zy7Z2oF5Nc",
+                        "to_id": "TnMdwAS8dS",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "tMrrnp9oAD",
+                        "to_id": "eZPjhJMMLS",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "tMrrnp9oAD",
+                        "to_id": "TnMdwAS8dS",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "tMrrnp9oAD",
+                        "to_id": "MU45ZzeXBW",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "tMrrnp9oAD",
+                        "to_id": "zy5gwgXZmF",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "eZPjhJMMLS",
+                        "to_id": "bvFHjpOlqD",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "TnMdwAS8dS",
+                        "to_id": "bvFHjpOlqD",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "MU45ZzeXBW",
+                        "to_id": "bvFHjpOlqD",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "zy5gwgXZmF",
+                        "to_id": "bvFHjpOlqD",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "Alemtuzumab and DSG: Alemtuzumab was administered intravenously at 0.3 mg/kg/dose over 3 hr. Patients received one dose on each of days -1,+1,+3 and +5 relative to transplantation (total dose 1.2 mg/kg). Methylprednisolone was given prior to each dose to limit the cytokine release: 500 mg prior to dose 1, 125 mg prior to dose 2, and 60 mg prior to doses 3 and 4. Deoxyspergualin was dosed as follows. The first two patients received 4 mg/kg as a loading dose on the day of transplant and 2.5 mg/kg daily for 13 additional days (14 days of treatment; 36.5 mg/kg total dose). The next three patients received the same dosing regimen but it was initiated on postoperative day 12 to coincide with the resurgence of monocytes on days 12- 25..",
+            "title": "NCT0000198413299801"
+        },
+        "id": 7
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "Xf5LQ78OpN",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 25,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 0,
+                            "text": "doxorubicin hydrochloride"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "fvSFuy9qpG",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 39,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 27,
+                            "text": "10 mg/m2/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "s0yIVlxO8o",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 56,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 51,
+                            "text": "1 - 4"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "DfU75DWjKB",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 66,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 57,
+                            "text": "q 5 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "re9oBy7CXR",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 78,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 69,
+                            "text": "melphalan"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "CC0xDRolUM",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 101,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 99,
+                            "text": "IV"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "3wQjxirURU",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 158,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 148,
+                            "text": "prednisone"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "dgT7ADnU7O",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 168,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 160,
+                            "text": "40 mg/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "fj13RObxVa",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 171,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 169,
+                            "text": "PO"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "cA7nWjXW5Y",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 190,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 172,
+                            "text": "days 1-7 q 35 days"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "A3OAnax536",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 212,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 193,
+                            "text": "vincristine sulfate"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "X7MFgUCzo3",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 224,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 214,
+                            "text": "0.5 mg/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "NMMtvahFJR",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 241,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 236,
+                            "text": "1 - 4"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "wLodIMA4bQ",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 251,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 242,
+                            "text": "q 5 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "hUDbDlymrb",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 296,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 254,
+                            "text": "peripheral blood stem cell transplantation"
+                        }
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "doxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks.\n\nmelphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5.\n\nprednisone: 40 mg/m2 PO days 1-7 q 35 days.\n\nvincristine sulfate: 0.5 mg/day continuous 1 - 4 q 5 weeks.\n\nperipheral blood stem cell transplantation: day 0.",
+            "title": "NCT0000254813296605"
+        },
+        "id": 8
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "Be38iJVRUN",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 10,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 0,
+                            "text": "carmustine"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "TIvWU93awr",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 20,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 12,
+                            "text": "20 mg/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "fkFmn4Pq92",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 24,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 21,
+                            "text": "I.V"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "N4BxCO3JUC",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 60,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 44,
+                            "text": "cyclophosphamide"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "yPU5EbuyXU",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 80,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 62,
+                            "text": "1.5 g/m2 in 100 ml"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "vOH8eJqGoR",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 87,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 84,
+                            "text": "D5W"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "hGGmSmgnHH",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 105,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 89,
+                            "text": "IV intravenously"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "t9oHzsXUz0",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 130,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 106,
+                            "text": "over 1 hour every 3 hour"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "2xkQAEjSLA",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 155,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 147,
+                            "text": "4.5 g/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "bdN5a5f0vP",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 172,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 159,
+                            "text": "dexamethasone"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "2nGDdDP6Ss",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 183,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 174,
+                            "text": "40 mg/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "zuNN4YvTgh",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 186,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 184,
+                            "text": "PO"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "gkxl8y10EG",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 194,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 190,
+                            "text": "IVPB"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "rhGGNVPdGh",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 216,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 211,
+                            "text": "17-20"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "n6u5FUxn8W",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 226,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 217,
+                            "text": "q 5 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "E5v61ziY5l",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 254,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 229,
+                            "text": "doxorubicin hydrochloride"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "vVITmYDFQo",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 268,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 256,
+                            "text": "10 mg/m2/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "nFbhTbR8ip",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 285,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 280,
+                            "text": "1 - 4"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "oPHUZDbrqi",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 295,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 286,
+                            "text": "q 5 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "gJ50h2cirr",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 307,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 298,
+                            "text": "melphalan"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "OeZAyXgaKp",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 330,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 328,
+                            "text": "IV"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "bwnCkRj5zp",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 387,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 377,
+                            "text": "prednisone"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "O4JwSRQ14e",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 397,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 389,
+                            "text": "40 mg/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "xWKZ8jr7Wx",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 400,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 398,
+                            "text": "PO"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "wwqfn4H68D",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 419,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 401,
+                            "text": "days 1-7 q 35 days"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "nAFcB0OI4G",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 460,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 422,
+                            "text": "allogeneic bone marrow transplantation"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "JL7WkmYjMQ",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 508,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 470,
+                            "text": "autologous bone marrow transplantation"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "ZLffED4mHw",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 560,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 518,
+                            "text": "peripheral blood stem cell transplantation"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "aoYEcNNeIv",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 587,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 570,
+                            "text": "radiation therapy"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "QzunGiuI3C",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 634,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 627,
+                            "text": "150 cGy"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "uerTupHSKv",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 658,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 655,
+                            "text": "bid"
+                        }
+                    },
+                    {
+                        "from_id": "yPU5EbuyXU",
+                        "to_id": "vOH8eJqGoR",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "hGGmSmgnHH",
+                        "to_id": "t9oHzsXUz0",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "hGGmSmgnHH",
+                        "to_id": "2xkQAEjSLA",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "2nGDdDP6Ss",
+                        "to_id": "gkxl8y10EG",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "zuNN4YvTgh",
+                        "to_id": "gkxl8y10EG",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "gkxl8y10EG",
+                        "to_id": "rhGGNVPdGh",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "gkxl8y10EG",
+                        "to_id": "n6u5FUxn8W",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "carmustine: 20 mg/m2 I.V. day 1 q 35 days.\n\ncyclophosphamide: 1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2).\n\ndexamethasone: 40 mg/day PO or IVPB days 1-4, 9-12, 17-20 q 5 weeks.\n\ndoxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks.\n\nmelphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5.\n\nprednisone: 40 mg/m2 PO days 1-7 q 35 days.\n\nallogeneic bone marrow transplantation: day 0.\n\nautologous bone marrow transplantation: day 0.\n\nperipheral blood stem cell transplantation: day 0.\n\nradiation therapy: administered in fractionated doses of 150 cGy, 6 - 10 hours apart bid, on Days -4, -3, -2, and -1 (Total 1,200 cGy).",
+            "title": "NCT0000254813296606"
+        },
+        "id": 9
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "8UJw287NVU",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 27,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 0,
+                            "text": "recombinant interferon alfa"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "fS1NVEEDVy",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 47,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 29,
+                            "text": "3 million units/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "NzCSnBCuzI",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 50,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 48,
+                            "text": "SQ"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "eqQ7AUjXON",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 67,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 51,
+                            "text": "Monday-Wednesday"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "oAJurs2WvJ",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 120,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 95,
+                            "text": "doxorubicin hydrochloride"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "9eTgGosyxh",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 134,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 122,
+                            "text": "10 mg/m2/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "PSqSX1PZOc",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 151,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 146,
+                            "text": "1 - 4"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "XbHa59ohB7",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 161,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 152,
+                            "text": "q 5 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "SwzcUUezf7",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 173,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 164,
+                            "text": "melphalan"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "XByutJfrev",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 196,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 194,
+                            "text": "IV"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "TvUaS5ktAq",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 253,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 243,
+                            "text": "prednisone"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "aqy5VzDOaO",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 263,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 255,
+                            "text": "40 mg/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "gOolBEzNcU",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 266,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 264,
+                            "text": "PO"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "AKM1Zk9V4C",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 285,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 267,
+                            "text": "days 1-7 q 35 days"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "mWCyhVESPV",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 307,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 288,
+                            "text": "vincristine sulfate"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "mpWbFESCtM",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 319,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 309,
+                            "text": "0.5 mg/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "sXXKIYT4Y9",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 336,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 331,
+                            "text": "1 - 4"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "Ws9YGRpa1D",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 346,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 337,
+                            "text": "q 5 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "1tFhHBsEfy",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 391,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 349,
+                            "text": "peripheral blood stem cell transplantation"
+                        }
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "recombinant interferon alfa: 3 million units/m2 SQ Monday-Wednesday\n-Friday (3 times a week).\n\ndoxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks.\n\nmelphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5.\n\nprednisone: 40 mg/m2 PO days 1-7 q 35 days.\n\nvincristine sulfate: 0.5 mg/day continuous 1 - 4 q 5 weeks.\n\nperipheral blood stem cell transplantation: day 0.",
+            "title": "NCT0000254813296607"
+        },
+        "id": 10
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "A1CRoIazih",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 27,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 0,
+                            "text": "recombinant interferon alfa"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "rnehKNLJjt",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 47,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 29,
+                            "text": "3 million units/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "dz4wSP2aKN",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 50,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 48,
+                            "text": "SQ"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "vlMf61wagu",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 67,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 51,
+                            "text": "Monday-Wednesday"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "6BcfzmUNUc",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 105,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 95,
+                            "text": "carmustine"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "5OTuFB9tMX",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 115,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 107,
+                            "text": "20 mg/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "e2aYxgmsQn",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 119,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 116,
+                            "text": "I.V"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "yFmM3twCfn",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 155,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 139,
+                            "text": "cyclophosphamide"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "jaaXzGKp26",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 175,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 157,
+                            "text": "1.5 g/m2 in 100 ml"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "qkAHCELFwW",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 182,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 179,
+                            "text": "D5W"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "MeFfHuapSR",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 200,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 184,
+                            "text": "IV intravenously"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "tnc80pL75n",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 225,
+                            "labels": [
+                                "cyclelength"
+                            ],
+                            "start": 201,
+                            "text": "over 1 hour every 3 hour"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "pM5zf6ClGu",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 250,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 242,
+                            "text": "4.5 g/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "R6l8AXGeb8",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 267,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 254,
+                            "text": "dexamethasone"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "TtklQYhi4L",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 278,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 269,
+                            "text": "40 mg/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "OuY0vlRikp",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 281,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 279,
+                            "text": "PO"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "AG8TWfYzwo",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 289,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 285,
+                            "text": "IVPB"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "EGzsHbyPrF",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 311,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 306,
+                            "text": "17-20"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "5lQOaJ6tFl",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 321,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 312,
+                            "text": "q 5 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "ssBSYCSltQ",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 349,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 324,
+                            "text": "doxorubicin hydrochloride"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "EHOqjs0TOd",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 363,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 351,
+                            "text": "10 mg/m2/day"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "dppxGdbG2p",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 380,
+                            "labels": [
+                                "dosage"
+                            ],
+                            "start": 375,
+                            "text": "1 - 4"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "VTH3RDAQSd",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 390,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 381,
+                            "text": "q 5 weeks"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "UakZZpeLwL",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 402,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 393,
+                            "text": "melphalan"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "w3vnymluSy",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 425,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 423,
+                            "text": "IV"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "1oNRb5PfVO",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 482,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 472,
+                            "text": "prednisone"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "c86DF0yOXS",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 492,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 484,
+                            "text": "40 mg/m2"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "jUyt2KOLlY",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 495,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 493,
+                            "text": "PO"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "iHaoE0ovwk",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 514,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 496,
+                            "text": "days 1-7 q 35 days"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "mbGlb07hjP",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 555,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 517,
+                            "text": "autologous bone marrow transplantation"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "Qbix9V8JoN",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 607,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 565,
+                            "text": "peripheral blood stem cell transplantation"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "py0yLXiU7m",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 634,
+                            "labels": [
+                                "treatment"
+                            ],
+                            "start": 617,
+                            "text": "radiation therapy"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "qc0zEfPDWM",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 681,
+                            "labels": [
+                                "strength"
+                            ],
+                            "start": 674,
+                            "text": "150 cGy"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "eJaEC3wYRE",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 705,
+                            "labels": [
+                                "frequency"
+                            ],
+                            "start": 702,
+                            "text": "bid"
+                        }
+                    },
+                    {
+                        "from_id": "jaaXzGKp26",
+                        "to_id": "qkAHCELFwW",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "MeFfHuapSR",
+                        "to_id": "tnc80pL75n",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "MeFfHuapSR",
+                        "to_id": "pM5zf6ClGu",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "TtklQYhi4L",
+                        "to_id": "AG8TWfYzwo",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "OuY0vlRikp",
+                        "to_id": "AG8TWfYzwo",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "AG8TWfYzwo",
+                        "to_id": "EGzsHbyPrF",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    },
+                    {
+                        "from_id": "AG8TWfYzwo",
+                        "to_id": "5lQOaJ6tFl",
+                        "type": "relation",
+                        "direction": "right",
+                        "labels": []
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "recombinant interferon alfa: 3 million units/m2 SQ Monday-Wednesday\n-Friday (3 times a week).\n\ncarmustine: 20 mg/m2 I.V. day 1 q 35 days.\n\ncyclophosphamide: 1.5 g/m2 in 100 ml of D5W, IV intravenously over 1 hour every 3 hour x 3 (total dose 4.5 g/m2).\n\ndexamethasone: 40 mg/day PO or IVPB days 1-4, 9-12, 17-20 q 5 weeks.\n\ndoxorubicin hydrochloride: 10 mg/m2/day continuous 1 - 4 q 5 weeks.\n\nmelphalan: 140 mg/m2 is given IV within 30 minutes of constitution on Day -5.\n\nprednisone: 40 mg/m2 PO days 1-7 q 35 days.\n\nautologous bone marrow transplantation: day 0.\n\nperipheral blood stem cell transplantation: day 0.\n\nradiation therapy: administered in fractionated doses of 150 cGy, 6 - 10 hours apart bid, on Days -4, -3, -2, and -1 (Total 1,200 cGy).",
+            "title": "NCT0000254813296608"
+        },
+        "id": 11
+    },
+    {
+        "predictions": [
+            {
+                "created_username": "pipelie_with_trtment",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "75u5TGFL4W",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 19,
+                            "labels": [
+                                "drug"
+                            ],
+                            "start": 0,
+                            "text": "vincristine sulfate"
+                        }
+                    },
+                    {
+                        "from_name": "label",
+                        "id": "f4vOtRR5wo",
+                        "source": "$text",
+                        "to_name": "text",
+                        "type": "labels",
+                        "value": {
+                            "end": 29,
+                            "labels": [
+                                "administration"
+                            ],
+                            "start": 27,
+                            "text": "IV"
+                        }
+                    }
+                ]
+            }
+        ],
+        "data": {
+            "text": "vincristine sulfate: Given IV.",
+            "title": "NCT0000255613298553"
+        },
+        "id": 12
+    }
+]
