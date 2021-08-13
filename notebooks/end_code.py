@@ -100,6 +100,7 @@ def relate_drugs(res, sentences, relations, resolution_res, intervention_type):
             disp = ''
         if disp == '-': disp = ''
         resolutions_list[int(i.begin)] = { 'resolved_text' : i.metadata['resolved_text'],
+                                          'rxnorm_code': i.result,
                                      'disposition' : disp}
         
     sentences_list = {}
@@ -119,7 +120,6 @@ def relate_drugs(res, sentences, relations, resolution_res, intervention_type):
     if drug_in_this == True:
         drug_ent_list = ['drug']
         
-    
     for i in res:
         #print(int(i.begin))
         if i.metadata['entity'].lower().strip() in drug_ent_list:
@@ -129,6 +129,7 @@ def relate_drugs(res, sentences, relations, resolution_res, intervention_type):
                                             "drug_entity": i.metadata['entity'],
                                             "resolved_drug": resolutions_list[int(i.begin)]['resolved_text'],
                                             'intervention_type': intervention_type,
+                                            'rxnorm_code': resolutions_list[int(i.begin)]['rxnorm_code'],
                                             "associated_details" : { 'dosage' : '', 'form': '', 'route': '',
                                                                        'strength': '', 'frequency': '', 
                                                                         'duration': '', 
@@ -138,19 +139,36 @@ def relate_drugs(res, sentences, relations, resolution_res, intervention_type):
                                                                        }
                                            }
                                        }
-        else:
+        elif i.metadata['entity'].lower().strip() != 'treatment':
             other_entities[int(i.begin)] = {'type': i.metadata['entity'].strip().lower(), 'chunk': i.result}
     
+    done_other_entities = []
     for rel in relations:
         if rel.metadata['entity1'].lower().strip() in drug_ent_list:
             drug_ent_id = int(rel.metadata['entity1_begin'])
             oth_ent = other_entities[int(rel.metadata['entity2_begin'])]
             drugs_list[drug_ent_id][resolutions_list[drug_ent_id]['resolved_text']]['associated_details'][oth_ent['type']] = oth_ent['chunk']
-        
+            
+            done_other_entities.append(int(rel.metadata['entity2_begin']))
+            
         elif rel.metadata['entity2'].lower().strip() in drug_ent_list:
             drug_ent_id = int(rel.metadata['entity2_begin'])
             oth_ent = other_entities[int(rel.metadata['entity1_begin'])]
             drugs_list[drug_ent_id][resolutions_list[drug_ent_id]['resolved_text']]['associated_details'][oth_ent['type']] = oth_ent['chunk']
+        
+            done_other_entities.append(int(rel.metadata['entity1_begin']))
+    
+    remaining_entities = set(list(other_entities.keys())) - set(done_other_entities)
+    
+    for rem_ent in remaining_entities:
+        oth_ent = other_entities[rem_ent]
+        smlst, clst, lrgst = find_formula(rem_ent, list(drugs_list.keys()))
+        #this_sent = int(i.metadata['sentence'])
+        if smlst != None:
+            drugs_list[smlst][resolutions_list[smlst]['resolved_text']]['associated_details'][oth_ent['type']] = oth_ent['chunk']
+        elif lrgst != None:# and drugs_sents[lrgst] == this_sent:
+            drugs_list[lrgst][resolutions_list[lrgst]['resolved_text']]['associated_details'][oth_ent['type']] = oth_ent['chunk']
+        
         
     return list(drugs_list.values())
                              
