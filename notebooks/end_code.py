@@ -94,8 +94,13 @@ def relate_drugs(res, sentences, relations, resolution_res, intervention_type):
     
     resolutions_list = {}
     for i in resolution_res:
+        try:
+            disp = i.metadata['all_k_aux_labels'].split(':::')[0]
+        except:
+            disp = ''
+        if disp == '-': disp = ''
         resolutions_list[int(i.begin)] = { 'resolved_text' : i.metadata['resolved_text'],
-                                     'disposition' : 'pa'}
+                                     'disposition' : disp}
         
     sentences_list = {}
     for i in sentences:

@@ -3,6 +3,7 @@ from sparknlp_jsl.annotator import *
 from sparknlp.base import *
 import math
 import pandas as pd
+from collections import OrderedDict
 
 def build_ner_pl(tptms, prefix=""):
     tms = []
@@ -52,25 +53,27 @@ def build_merging_pl(tptms, merge_overlapping=True, prefix=""):
 
 
 def build_treatment_pipeline(editable_models_path="../models/editable",fixed_models_path="../models/fixed"):
-    # Preprocessing pipeline
-    da = DocumentAssembler().setInputCol("text").setOutputCol("document")
-    #sd = SentenceDetectorDLModel.pretrained("sentence_detector_dl_healthcare","en","clinical/models") \
     
+    da = DocumentAssembler().setInputCol("text").setOutputCol("document")
+    
+    #sd = SentenceDetectorDLModel.pretrained("sentence_detector_dl_healthcare","en","clinical/models") \
     sd = SentenceDetector().setCustomBounds(["\r\n","\n","\r",": ","; ","\. "])\
         .setInputCols(["document"]) \
         .setOutputCol("sentence")
     
     tk = Tokenizer().setInputCols("sentence").setOutputCol("token")
+    
     emb = WordEmbeddingsModel.pretrained("embeddings_clinical","en","clinical/models").setOutputCol("embs")
     
     pos = PerceptronModel().pretrained("pos_clinical", "en", "clinical/models") \
         .setInputCols(["sentence", "token"]).setOutputCol("pos_tags")
+    
     dependency_parser = DependencyParserModel()\
         .pretrained("dependency_conllu", "en")\
         .setInputCols(["sentence", "pos_tags", "token"])\
         .setOutputCol("dependencies")
 
-    from collections import OrderedDict
+    
     ners_to_merge = OrderedDict({
         "ner_posology":("posology",[]),
         "ner_clinical":("base",["TREATMENT"]), 
@@ -94,10 +97,11 @@ def build_treatment_pipeline(editable_models_path="../models/editable",fixed_mod
         .setEntities(f"{editable_models_path}/arms_treatment_textmatcher.csv").setCaseSensitive(False).setMergeOverlapping(True)\
         .setBuildFromTokens(True)
 
-    ass = AssertionDLModel.pretrained("assertion_dl", "en", "clinical/models") \
-        .setInputCols(["sentence", "treat_chunk", "embs"]) \
-        .setOutputCol("assertion")
+#     ass = AssertionDLModel.pretrained("assertion_dl", "en", "clinical/models") \
+#         .setInputCols(["sentence", "treat_chunk", "embs"]) \
+#         .setOutputCol("assertion")
 
+    # combining results of textmatch and regex match
     cmrh = ChunkMergeApproach().setInputCols("rex_chunk","textmatch_chunk").setOutputCol("rex_text_chunk")\
         .setMergeOverlapping(False)\
         .setReplaceDictResource(f"{editable_models_path}/replace_dict.csv","TEXT", {"delimiter":","})\
@@ -108,7 +112,11 @@ def build_treatment_pipeline(editable_models_path="../models/editable",fixed_mod
         .setReplaceDictResource(f"{editable_models_path}/replace_dict.csv","TEXT", {"delimiter":","})\
         .setFalsePositivesResource(f"{editable_models_path}/fp_dict.csv","TEXT", {"delimiter":","})
 
-    #conv_drug = ChunkFilterer().setInputCols("sentence","full_chunk").setOutputCol("drug_chunk").setWhiteList(["Drug","drug","DRUG"])
+#     conv_drug = ChunkFilterer()\
+#         .setInputCols("sentence","full_chunk")\
+#         .setOutputCol("drug_chunk")\
+#         .setWhiteList(["Drug","drug","DRUG"])
+
     conv_drug = ChunkMergeApproach()\
         .setInputCols("full_chunk","all_chunk")\
         .setOutputCol("drug_chunk")\
@@ -137,13 +145,13 @@ def build_treatment_pipeline(editable_models_path="../models/editable",fixed_mod
         .setMaxSyntacticDistance(5)\
         .setRelationPairs(pairs)
 
-    c2d = Chunk2Doc().setInputCols("drug_chunk").setOutputCol("sbert_doc")
+    c2d = Chunk2Doc().setInputCols("full_chunk").setOutputCol("sbert_doc")
 
     sbert = BertSentenceEmbeddings.pretrained("sbiobert_base_cased_mli","en","clinical/models")\
         .setInputCols("sbert_doc").setOutputCol("sbert_embeddings_sbert")
 
 
-    rxnorm = SentenceEntityResolverModel.pretrained("sbiobertresolve_rxnorm_dispo","en","clinical/models")\
+    rxnorm = SentenceEntityResolverModel.pretrained("sbiobertresolve_rxnorm_disposition","en","clinical/models")\
         .setInputCols(f"sbert_doc","sbert_embeddings_sbert").setOutputCol("resolution_rxnorm").setNeighbours(3)
     
 #     snomed = SentenceEntityResolverModel.pretrained("sbiobertresolve_snomed_findings","en","clinical/models")\

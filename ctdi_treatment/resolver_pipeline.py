@@ -17,7 +17,7 @@ class ResolverPipeline():
         sbert = BertSentenceEmbeddings.pretrained("sbiobert_base_cased_mli","en","clinical/models")\
             .setInputCols("document").setOutputCol("sbert_embeddings_sbert")
 
-        rxnorm = SentenceEntityResolverModel.pretrained("sbiobertresolve_rxnorm_dispo","en","clinical/models")\
+        rxnorm = SentenceEntityResolverModel.pretrained("sbiobertresolve_rxnorm_disposition","en","clinical/models")\
             .setInputCols(f"document","sbert_embeddings_sbert").setOutputCol("resolution_rxnorm")#.setNeighbours(3)
 
         pipeline = Pipeline().setStages([
