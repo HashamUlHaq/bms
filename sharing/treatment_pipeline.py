@@ -137,7 +137,7 @@ def build_treatment_pipeline(editable_models_path="../models/editable",fixed_mod
 #         .setInputCols(f"sbert_doc","sbert_embeddings_sbert").setOutputCol("resolution_rxnorm").setNeighbours(3)
     
     pl = Pipeline().setStages([da,sd,tk,emb,pos,dependency_parser,rexm,tm] + 
-                          ner_pl + cms + [cmrh, cmrha, conv_drug, conv_treat, posology_re, c2d, sbert, rxnorm])
+                          ner_pl + cms + [cmrh, cmrha, conv_drug, conv_treat, posology_re, c2d, sbert, rxnorm, ass])
     return pl
 
 
