@@ -131,9 +131,14 @@ def treatment_reconstruction(dataset,drug_dict, is_prior=False,group_type_col='g
     return dataset
 
     
-def relate_drugs_updated(res, sentences, relations, resolution_res, intervention_type):
+def relate_drugs_updated(res, sentences, relations, resolution_res, assertion_res, intervention_type):
     
     drug_ent_list = ['drug', 'treatment']
+
+    assertion_list = {}
+    for i in assertion_res:
+        assertion_list[int(i.begin)] = i.result
+
     
     resolutions_list = {}
     for i in resolution_res:
@@ -186,11 +191,13 @@ def relate_drugs_updated(res, sentences, relations, resolution_res, intervention
             drugs_list[int(i.begin)] = { 
                                             "raw_sentence": sentences_list[int(i.metadata['sentence'])],
                                             "raw_drug" : i.result,
+                                            "entity_confidence" : str(i.metadata.get('confidence', 1.0)),
                                             "drug_entity": i.metadata['entity'],
                                             "resolved_drug": resolution,
-                                            "resolved_drug_distance": distance,
+                                            "resolved_drug_distance": distance, # 0 means accurate, 1 means not accurate
                                             'intervention_type': intervention_type,
                                             'rxnorm_code': rxnorm_code,
+                                            "assertion_status" : assertion_list.get(int(i.begin), 'present'),
                                             "associated_details" : { 'dosage' : '', 'form': '', 'route': '',
                                                                        'strength': '', 'frequency': '', 
                                                                         'duration': '', 
@@ -266,10 +273,10 @@ def extract_treatment_info(df,res_arm,res_intervention, prior_treatment_flag=Fal
             row_rec = df.iloc[index]
             found_drugs = False
             found_drugs_i = relate_drugs_updated(ires_rec['full_chunk'], ires_rec['sentence'],
-                                         ires_rec['relations'], ires_rec['resolution_rxnorm'] , 
-                                         row_rec['intervention_type']) 
+                                         ires_rec['relations'], ires_rec['resolution_rxnorm'],
+                                         ires_rec['assertion'], row_rec['intervention_type']) 
             found_drugs_a = relate_drugs_updated(ares_rec['full_chunk'], ares_rec['sentence'],
-                                         ares_rec['relations'], ares_rec['resolution_rxnorm'] , None)
+                                         ares_rec['relations'], ares_rec['resolution_rxnorm'], ares_rec['assertion'] , None)
             if found_drugs_i:
                 json_obj = found_drugs_i
             elif found_drugs_a:
@@ -283,10 +290,10 @@ def extract_treatment_info(df,res_arm,res_intervention, prior_treatment_flag=Fal
             found_drugs = False
             if prior_treatment_flag:
                 found_drugs_a = relate_drugs_treatments(ares_rec['full_chunk'], ares_rec['sentence'],
-                                         ares_rec['relations'], ares_rec['resolution_rxnorm'] , None)
+                                         ares_rec['relations'], ares_rec['resolution_rxnorm'], ares_rec['assertion'] , None)
             else:
                 found_drugs_a = relate_drugs_updated(ares_rec['full_chunk'], ares_rec['sentence'],
-                                         ares_rec['relations'], ares_rec['resolution_rxnorm'] , None)
+                                         ares_rec['relations'], ares_rec['resolution_rxnorm'], ares_rec['assertion'], None)
             if found_drugs_a:
                 json_obj = found_drugs_a
         
@@ -301,7 +308,7 @@ def extract_treatment_info(df,res_arm,res_intervention, prior_treatment_flag=Fal
             found_drugs = False
             found_drugs_i = relate_drugs_updated(ires_rec['full_chunk'], ires_rec['sentence'],
                                          ires_rec['relations'], ires_rec['resolution_rxnorm'] , 
-                                         row_rec['intervention_type']) 
+                                         ires_rec['assertion'], row_rec['intervention_type']) 
            
             if found_drugs_i:
                 json_obj = found_drugs_i
@@ -396,9 +403,13 @@ def treatment_extraction_full(l_model, final_treatment_design_arm_level, spark, 
     return final_treatment_design_w_treatment_info
 
 
-def relate_drugs_treatments(res, sentences, relations, resolution_res, intervention_type):
+def relate_drugs_treatments(res, sentences, relations, resolution_res, assertion_res, intervention_type):
     
     drug_ent_list = ['drug', 'treatment']
+
+    assertion_list = {}
+    for i in assertion_res:
+        assertion_list[int(i.begin)] = i.result
     
     resolutions_list = {}
     for i in resolution_res:
@@ -454,11 +465,13 @@ def relate_drugs_treatments(res, sentences, relations, resolution_res, intervent
             drugs_list[int(i.begin)] = {
                                             "raw_sentence": sentences_list[int(i.metadata['sentence'])],
                                             "raw_drug" : i.result,
+                                            "entity_confidence" : str(i.metadata.get('confidence', 1.0)),
                                             "drug_entity": i.metadata['entity'],
                                             "resolved_drug": resolution,
                                             "resolved_drug_distance": distance,
                                             'intervention_type': intervention_type,
                                             'rxnorm_code': rxnorm_code,
+                                            "assertion_status" : assertion_list.get(int(i.begin), 'present'),
                                             "associated_details" : { 'dosage' : '', 'form': '', 'route': '',
                                                                        'strength': '', 'frequency': '', 
                                                                         'duration': '', 
@@ -471,6 +484,7 @@ def relate_drugs_treatments(res, sentences, relations, resolution_res, intervent
             drugs_list[int(i.begin)] = {
                                             "raw_sentence": sentences_list[int(i.metadata['sentence'])],
                                             "raw_drug" : i.result,
+                                            "entity_confidence" : i.metadata['confidence'],
                                             "drug_entity": i.metadata['entity'],
                                             "resolved_drug": resolution,
                                             "resolved_drug_distance": distance,
